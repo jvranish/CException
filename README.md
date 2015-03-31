@@ -9,9 +9,9 @@ CException is simple exception handling in C. It is significantly faster than fu
 Getting Started
 ================
 
-	> git clone --recursive https://github.com/throwtheswitch/cexception.git
+	> git clone https://github.com/throwtheswitch/cexception.git
 	> cd cexception
-	> bundle install # Ensures you have all RubyGems needed
+	> bundle install --path=vendor # Ensures you have all RubyGems needed
 	> bundle execute rake # Run CException tests
 
 Usage

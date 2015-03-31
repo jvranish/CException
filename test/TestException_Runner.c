@@ -53,8 +53,7 @@ void resetTest()
 //=======MAIN=====
 int main(void)
 {
-  Unity.TestFile = "test/TestException.c";
-  UnityBegin();
+  UnityBegin("test/TestException.c");
   RUN_TEST(test_BasicTryDoesNothingIfNoThrow, 16);
   RUN_TEST(test_BasicThrowAndCatch, 37);
   RUN_TEST(test_BasicThrowAndCatch_WithMiniSyntax, 56);

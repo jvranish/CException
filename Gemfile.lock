@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/jvranish/Unity.git
+  revision: 36a5f501e10dbeee989a44eb42c31882da8a6d92
+  specs:
+    unity (1.0.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -10,3 +16,4 @@ PLATFORMS
 DEPENDENCIES
   rake
   test-unit (~> 2.4)
+  unity!

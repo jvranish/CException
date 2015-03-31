@@ -1,14 +1,15 @@
 HERE = File.expand_path(File.dirname(__FILE__)) + '/'
 
+require 'bundler/setup'
 require 'rake'
 require 'rake/clean'
 require 'rake/testtask'
-require HERE+'vendor/unity/auto/colour_reporter.rb'
+require 'colour_reporter.rb'
 
 #Tool and Lib Locations
 C_COMPILER = 'gcc'
 C_LIBS = ''
-UNITY_DIR = 'vendor/unity/src'
+UNITY_DIR = "#{Gem.loaded_specs["unity"].gem_dir}/src"
 
 #Test File To Be Created
 OUT_FILE = 'test_cexceptions'

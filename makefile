@@ -1,7 +1,7 @@
 #Tool and Lib Locations
 C_COMPILER=gcc
 C_LIBS=C:/MinGW/lib
-UNITY_DIR=vendor/unity/src
+UNITY_DIR=$(shell bundle show unity)/src
 
 #Test File To Be Created
 OUT_FILE=test_cexceptions
